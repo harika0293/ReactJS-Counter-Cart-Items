@@ -1,24 +1,21 @@
-# A simple counter-App using [React.js](https://reactjs.org)
+# React JS Application
 
-> **This tiny application is like adding,removing,deleting, resetting products which reflects in the total number of products into our shopping cart.**
+A React Framework app
 
-**This is a very basic app but useful to understand the React Components, states, Data Flow, parent to child etc. .**
+## Install the dependencies
+```bash
+npm install
+npm install --save --legacy-peer-deps
 
-## Live URL :-
+```
 
-> [Counter App](https://obscure-waters-60500.herokuapp.com)
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+npm start
+```
 
-**OR your can do the following to run in your local machine**
 
-## Scripts
-
-Install node modules
-
-#### `npm install`
-
-In the project directory, you can run:
-
-#### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Build the app for production
+```bash
+npm run build
+```
